@@ -1,4 +1,4 @@
-tasks.create("shared-task") {
+tasks.register("shared-task") {
     val sharedMap = mutableMapOf(
         "name" to "Max",
         "age" to 31,
