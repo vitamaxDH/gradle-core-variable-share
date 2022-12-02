@@ -5,9 +5,12 @@ modules in multi module project structure
 ## Tree structure of this project
 
 ```
-└── gradle-core-variable-share
-    ├── api
-    └── shared
+└── gradle-core-variable-share/
+    ├── api/
+    │   └── build.gradle.kts
+    ├── shared/
+    │   └── build.gradle.kts
+    └── settings.gradle.kts
 ```
 
 If you run,
